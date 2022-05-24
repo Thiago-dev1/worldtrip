@@ -4,7 +4,7 @@ import { Flex, Image, Box } from "@chakra-ui/react";
 export function Header() {
     return (
         <Flex as='header'
-            w={1440}
+            w='100%'
             h='100px'
             position='absolute'
             left='0'
@@ -14,7 +14,7 @@ export function Header() {
                 position='absolute'
                 w='184.06px'
                 h='45.92px'
-                left='628px'
+                left='50%'
                 top='27px'
 
             >
