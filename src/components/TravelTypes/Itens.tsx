@@ -16,11 +16,8 @@ export function Itens({title, src, alt, ml}: ItensProps) {
             flexDirection='row'
             ml={ml}
         >
-
-
             <Flex
-                flexDirection='column'
-                
+                flexDirection='column'       
             >
                 <Image src={src} alt={alt} w='80px' h='70px' display='block' m='0 auto'/>
 
@@ -35,8 +32,7 @@ export function Itens({title, src, alt, ml}: ItensProps) {
                     {title}
                 </Text>
                 
-            </Flex>
-            
+            </Flex>     
         </Flex>
 
     )
